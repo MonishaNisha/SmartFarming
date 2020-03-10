@@ -1,0 +1,36 @@
+.flx
+{
+	display: flex;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.25;
+    color: #464a4c;
+    text-align: center;
+    background-color: #eceeef;
+    border-radius: .25rem;
+}
+.wid {
+    width: 10%; 
+}
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #eceeef;
+}
+.card {
+  margin-bottom: 20px;
+}
+.card-img-top {
+  width: 200px;
+  height: 200px;
+  align-self: center;
+}
+.cartbtnalgn {
+	width: 1500px;
+}
+@media (min-width: 1200px){
+.container{
+width: 1500px !important;
+}
+}
